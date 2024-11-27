@@ -1,4 +1,4 @@
-// Interação do formulário de contato
+
 document.addEventListener('DOMContentLoaded', () => {
     let form = document.querySelector('form');
     
@@ -14,8 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`);
             form.reset(); 
+        }
     });
 });
+
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('nav ul li a');
@@ -48,6 +50,7 @@ function typeEffect() {
         welcomeSpan.textContent += welcomeText.charAt(charIndex);
         charIndex++;
         setTimeout(typeEffect, 100); 
+    }
 }
 
 typeEffect();
