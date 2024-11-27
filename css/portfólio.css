@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(84, 45, 108, 0.7);
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a.active {
+    color: rgba(255, 255, 0, 0.8);
+    border-bottom: 2px solid rgba(255, 255, 0, 0.8);
+}
+
+/* Seções principais */
+.sobreh1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 28px;
+    color: #542d6c;
+}
+
+.sobreh2 {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Habilidades */
+.habilidades {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(84, 60, 100, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.habilidades h2 {
+    font-size: 24px;
+    color: #542d6c;
+}
+
+.habilidades h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contatos {
+    text-align: center;
+}
+
+/* Projetos */
+section {
+    margin: 20px;
+    gap: 10px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.Projeto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Projeto img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.Projeto a.clique {
+    font-size: 1rem;
+    color: white;
+    background-color: #0077b5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.Projeto a.clique:hover {
+    background-color: #005582;
+}
+
+main h1 {
+    text-align: center;
+    color: #542d6c;
+}
+
+/* Formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(84, 45, 108, 0.1);
+    border-radius: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #542d6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #321d40;
+}
+
+
+.curriculoh1 {
+    text-align: left;
+    font-family: arial;
+    padding: 2em;
+
+}
+
+.experiencia {
+    text-align: justify;
+    font-family: arial;
+    padding: 2em;
+
+
+}
+
+.formacao {
+    text-align: justify;
+    font-family: arial;
+    padding: 2em;
+
+}
+
+.cursos {
+    text-align: justify;
+    font-family: arial;
+    padding: 2em;
+
+
+}
+
+.curso-instituicao {
+    text-align: justify;
+    font-family: arial;
+    padding: 2em;
+
+
+
+}
+
+.conhecimentos {
+    text-align: justify;
+    font-family: arial;
+    padding: 2em;
+
+
+}
+
+.borda {
+    border-bottom: 0.3em solid;
+
+}
+
+
+/* Rodapé */
+footer {
+    background-color: rgba(84, 60, 100, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
