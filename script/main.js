@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     let form = document.querySelector('form');
     
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('nav ul li a');
@@ -40,6 +38,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
+
 let welcomeSpan = document.querySelector('.sobreh1 span');
 let welcomeText = 'ao meu portfólio!';
 let charIndex = 0;
@@ -48,7 +47,7 @@ function typeEffect() {
     if (charIndex < welcomeText.length) {
         welcomeSpan.textContent += welcomeText.charAt(charIndex);
         charIndex++;
-        setTimeout(typeEffect, 100);
+        setTimeout(typeEffect, 100); 
     }
 }
 
